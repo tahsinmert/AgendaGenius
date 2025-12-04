@@ -1,3 +1,5 @@
+![AgendaGenius Logo](./AgendaGenius_logo.png)
+
 # AgendaGenius 🧠✨
 
 **AgendaGenius**, dokümanlarınızı saniyeler içinde eyleme geçirilebilir toplantı planlarına, zaman çizelgelerine ve paydaş analizlerine dönüştüren, Google Gemini 3.0 Pro destekli akıllı bir toplantı mimarıdır.
@@ -16,8 +18,6 @@
 *   **🎨 Modern Arayüz**: Glassmorphism tasarımı, sürükle-bırak dosya yükleme ve akıcı animasyonlar.
 
 ## 🖼️ Ekran Görüntüleri
-
-![AgendaGenius Logo](./AgendaGenius_logo.png)
 
 ![AgendaGenius UI](./image.png)
 
