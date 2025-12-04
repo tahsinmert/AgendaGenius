@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { Upload, FileText, X, Image as ImageIcon, FileCode, Trash2 } from 'lucide-react';
+import { Upload, FileText, Image as ImageIcon, FileCode, Trash2 } from 'lucide-react';
 import { FileData } from '../types';
 
 interface FileUploadProps {

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Layout, Calendar, Sparkles, FileText, ChevronRight, Menu, X, ToggleLeft, ToggleRight } from 'lucide-react';
+import { useState } from 'react';
+import { Sparkles, FileText, ChevronRight, Menu, X, ToggleLeft, ToggleRight } from 'lucide-react';
 import FileUpload from './components/FileUpload';
 import AgendaTimeline from './components/AgendaTimeline';
 import StakeholdersList from './components/StakeholdersList';

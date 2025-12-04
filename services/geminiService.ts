@@ -139,7 +139,10 @@ export const streamChatResponse = async function* (
       }
   });
 
-  for await (const chunk of responseStream) {
-      yield chunk.text;
+  for await (const chunk of responseStream as any) {
+      const text = typeof chunk.text === 'function' ? chunk.text() : chunk.text;
+      if (text) {
+        yield text as string;
+      }
   }
 };

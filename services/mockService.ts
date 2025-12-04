@@ -42,7 +42,7 @@ const MOCK_MEETING_DATA: MeetingData = {
   ]
 };
 
-export const generateAgendaFromFiles = async (files: FileData[]): Promise<MeetingData> => {
+export const generateAgendaFromFiles = async (_files: FileData[]): Promise<MeetingData> => {
   // Simulate network delay
   await new Promise(resolve => setTimeout(resolve, 2000));
   
@@ -51,10 +51,10 @@ export const generateAgendaFromFiles = async (files: FileData[]): Promise<Meetin
 };
 
 export const streamChatResponse = async function* (
-    history: { role: string; parts: { text: string }[] }[],
+    _history: { role: string; parts: { text: string }[] }[],
     newMessage: string,
-    files: FileData[],
-    meetingContext: MeetingData | null
+    _files: FileData[],
+    _meetingContext: MeetingData | null
 ) {
   // Simulate network delay
   await new Promise(resolve => setTimeout(resolve, 600));
